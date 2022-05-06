@@ -1,0 +1,223 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+#test {
+    width: 10px;
+    height: 10px;
+    background-color: #fff;
+    z-index: 777;
+    border-radius: 50%;
+    position: fixed;
+    top: 50%;
+    right: 50%;
+    transform: translateX(50%);
+}
+@font-face {
+    font-family:'Roboto-Black';
+    src: url(/src/fonts/Roboto-Black.ttf);
+}
+@font-face {
+    font-family:'Roboto-Light' ;
+    src: url(/src/fonts/Roboto-Light.ttf);
+}
+@font-face {
+    font-family:'Rbt-Thin' ;
+    src: url(/src/fonts/Roboto-Thin.ttf);
+}
+.container {
+    position: relative;
+    width: 1140px;
+    margin:  0 auto;
+}
+ .container.first {
+    padding-top: 38px;
+    padding-bottom: 60px;
+
+}
+.second {
+    padding-top: 0;
+}
+.promo{
+    height: 870px;
+    background-color: red;
+    background: url('../img/firstdisplay/main_bg.png') center center  /cover no-repeat;
+}
+.logo .logo_img{
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 9.5px;
+}
+.logo .logo_text{
+    text-align: center;
+    color: white;
+    font-family: 'Roboto-Light';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    text-transform: uppercase;
+    margin-bottom: 53px;
+}
+.title {
+    Font-family:'Roboto-Black';
+    Font-style: Black;
+    Font-size: 41px;
+    font-weight: 400;
+    color: #F9BF3B;
+    text-transform: uppercase;
+    text-align: center;
+
+}
+.simple .title_big {
+    font-family: 'Roboto-Black';
+    Font-size: 80px;
+    font-weight: 900;
+    text-align: center;
+    color: white;
+    margin-top: 21px;
+    margin-bottom: 21px;
+    padding: 0 auto;
+    text-transform: uppercase;
+}
+ .promo_text {
+    font-family: "Roboto-Light";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 21px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 23px;
+    padding: 0 13px;
+}
+.promo .promo_text span { 
+    color: #F9BF3B;
+    font-family: "Roboto-Black";
+    font-weight: 700;
+}
+.promo_button {
+    display:block;
+    color: white;
+    font-family: 'rbt-thin';
+    text-transform: uppercase;
+    margin: 0 auto;
+    margin-top: 72px;
+    margin-bottom: 70px;
+    background: linear-gradient(0deg, #2798B9 0%, #3AB6DA 100%);
+    width: 313px;
+    height: 72px;
+    font-size: 21px;
+    font-weight: 700;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    text-shadow: -1px -1px 0 rgb(31, 123, 151);
+    box-shadow: 0px 0px 10px rgba(0,0,0, 0.4);
+}
+.seeya{
+    font-size: 15px;
+    color: white;
+    font-weight: 100;
+    font-size: 15px;
+    text-transform: uppercase;  
+    text-align: center;
+}
+.seeya_text {
+    opacity: 50%;
+    margin-bottom: 5px;
+
+}
+.down {
+    display:block;   
+    width: 30px;
+    height: 20px;
+    margin: 0 auto;
+}
+/*          разделение              */
+.waiting{
+    height: 600px;
+    background-color: #EFEFEF;
+    padding-bottom: 75px;
+    padding-top: 88px;
+}
+.waiting_wrapper{
+    display: flex;
+    justify-content: space-around;
+}
+.waiting_item{
+    width: 100%;
+    text-align: center;
+}
+.waiting_header{
+    text-align: center;
+    font-size: 30px;
+    font-family:'Roboto-light';
+    font-weight: 900;
+    text-transform: uppercase;
+} .divider {
+    width: 220px;
+    height: 7px;
+    background-color: #F9BF3B;
+    margin: 0 auto;
+    margin-top: 18px;
+    margin-bottom: 19px;
+
+}
+.waiting_sbheader {
+    margin-bottom: 45px;
+    text-align: center;
+    font-family:'Roboto-Light';
+    font-weight: 600;
+}
+.waiting_txt{
+    margin-top: 26px;
+    font-family: 'Roboto-Light';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+}
+
+/* --------------------------- */
+.optimize{
+    font-family: 'Roboto-Light';
+    min-height: 502px;
+    padding-top: 61px;
+    padding-bottom: 75px;
+    margin-top: 47px;
+}
+.weteach{
+    font-weight: bold;
+}
+.opt_header{
+    margin-left: 390px;
+    color: #2798B9;
+    text-transform: uppercase;
+    font-family: 'Roboto-Black';
+    font-size: 29px;
+}
+.opt_txt{
+    margin-left: 391px;
+    margin-top: 25px;
+    font-size: 17px;
+}
+.optimize{
+    background:url(/src/img/baba_bg.png);
+    background-repeat: no-repeat ;
+    background-size: 868px 502px;
+}
+/* ------------ */
+.finish{
+    min-height: 450px;
+    padding-top: 86px;
+    padding-bottom: 79px;
+    background: url(/src/img/second_bg.png);
+    background-size: 1920px 450px;
+}
+.finish_header{
+    text-align: center;
+    font-size: 30px;
+    color: #FFFFFF;
+    font-family: 'Roboto-Light';
+    font-weight: 100;
+    text-transform: uppercase;
+}
